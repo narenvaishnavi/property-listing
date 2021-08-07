@@ -1,0 +1,26 @@
+@import '../../styles/global.scss';
+
+.header {
+  height: 103px;
+  background: $headerBackground;
+  border-radius: 1px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h2 {
+  height: 40px;
+  width: 294.93;
+  left: -480px;
+  top: -489.5px;
+  font-family: $fontFamily;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: $headerTitleColor;
+  padding: 1.5rem;
+}

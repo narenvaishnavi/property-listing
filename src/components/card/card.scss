@@ -1,0 +1,91 @@
+@import '../../styles/global.scss';
+
+@mixin dimension {
+  width: 315px !important;
+  height: 280px;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  @include dimension;
+  left: -107px;
+  top: -381px;
+  border-radius: 4px;
+}
+
+.specs {
+  left: -99px;
+  top: -85px;
+  font-family: $fontFamily;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: left;
+  color: $textColor;
+}
+
+.listPrice {
+  font-family: $fontFamily;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: $textColor;
+}
+
+.address {
+  width: 301px;
+  left: -480px;
+  top: -13px;
+  font-family: $fontFamily;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.listedDate {
+  position: absolute;
+  width: 301px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #979797;
+  margin-top: -1.5em;
+}
+
+.full-width {
+  @include dimension;
+  position: relative;
+}
+
+img.imgone {
+  @include dimension;
+}
+
+img.imgtwo {
+  position: absolute;
+  width: 50px !important;
+  height: 50px;
+  top: 10px;
+  left: 260px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.card-body {
+  padding: 1rem 0rem;
+}
