@@ -14,6 +14,7 @@
 2. Utilization of CSS Pre-processor SASS to implement the concept of DRY (Don't repeat Yourself) by using @mixins.
 3. I have taken the liberty of calculating total bathrooms as - d.property.bathsFull + d.property.bathsHalf / 2 based on the example in the instructions (ex: 1 full + 3 half = 2.5)
 4. Used Enzyme to write some test cases which is a great fit for react library.
+5. Used moment.js to convert timeStamp List Date into any format. Here we had "MM/DD/YYYY".
 
 Steps to follow -
 1. To download all the dependencies to run local, type `npm install`
