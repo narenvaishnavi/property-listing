@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Property List Card Component render correctly 1`] = `ReactWrapper {}`;
-
-exports[`Property List Header Component render correctly 1`] = `ReactWrapper {}`;
